@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# React / Node
+node_modules/
+dist/
+.vite/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
+
+# Generated intermediate ML files
+dataset/processed_jobs.csv
+models/tfidf_features.joblib
